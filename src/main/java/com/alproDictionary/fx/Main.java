@@ -30,9 +30,9 @@ public class Main extends Application {
         Text searchText = new Text("Search:");
         TextField searchBar = new TextField();
         Button go = new Button("Go!");
-        Text translatedText = new Text(dictionary.indoArr[0]);
+        Text translatedText = new Text("");
         translatedText.setFont(Font.font("Tahoma",FontWeight.NORMAL, FontPosture.ITALIC,18));
-        TextArea definitionArea = new TextArea(dictionary.indoDef[0]);
+        TextArea definitionArea = new TextArea("");
         definitionArea.setWrapText(true);
         definitionArea.setEditable(false);
 
@@ -48,6 +48,19 @@ public class Main extends Application {
         stage.setTitle("Mini-FX Programming Terms Dictionary!");
         stage.setScene(scene);
         stage.show();
+
+        go.setOnAction(goClick ->{
+            dictionary.search(searchBar.getText(),0,dictionary.getArrLen());
+            int arrIdx = dictionary.getVoidReturn();
+            System.out.println(arrIdx);
+            if (arrIdx == -1){
+                translatedText.setText("Tidak Ditemukan!");
+                definitionArea.setText("Kata tersebut belum ada di data");
+            }else{
+                translatedText.setText(dictionary.indoArr[arrIdx]);
+                definitionArea.setText(dictionary.indoDef[arrIdx]);
+            }
+        });
     }
 
     public static void main(String[] args) {
