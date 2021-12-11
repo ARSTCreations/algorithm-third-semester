@@ -49,7 +49,7 @@ public class Dictionary {
 //      int++
 
         englishArr[current]="LoremIpsum"; indoArr[current]="LoremIpsum";
-        indoDef[current]="Cicero\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+        indoDef[current]="nomina\n\n.";
         current++;
 
         englishArr[current]="Algorithm"; indoArr[current]="Algoritme";
@@ -59,6 +59,68 @@ public class Dictionary {
         englishArr[current]="Argument"; indoArr[current]="Argumen";
         indoDef[current]="nomina\n\nArgumen adalah cara untuk memberikan lebih banyak informasi ke suatu fungsi. Fungsi kemudian dapat menggunakan informasi itu saat berjalan, seperti variabel";
         current++;
+
+        //upi Start
+        englishArr[current]="Analysis"; indoArr[current]="Analisis";
+        indoDef[current]="nomina\n\npenyelidikan terhadap suatu peristiwa (karangan, perbuatan, dan sebagainya) untuk mengetahui keadaan yang sebenarnya (sebab-musabab, duduk perkaranya, dan sebagainya)";
+        current++;
+
+        englishArr[current]="chat"; indoArr[current]="obrolan";
+        indoDef[current]="nomina\n\npercakapan ringan dan santai; omong kosong:";
+        current++;
+
+        englishArr[current]="connection"; indoArr[current]="sambungan";
+        indoDef[current]="nomina\n\nkomunikasi yang terjadi apabila gagasan dan perasaan yang disampaikan pembawa pesan dapat menggugah dan menggerakkan hati penerima pesan; kontak antara pihak yang satu dan pihak yang lain; kontak batin;";
+        current++;
+
+        englishArr[current]="copy"; indoArr[current]="Salin";
+        indoDef[current]="nomina\n\nmengutip (tulisan); menulis kembali; meniru:";
+        current++;
+
+        englishArr[current]="Communicate"; indoArr[current]="\tBerkomunikasi/Menyampaikan";
+        indoDef[current]="nomina\n\npengiriman dan penerimaan pesan atau berita antara dua orang atau lebih sehingga pesan yang dimaksud dapat dipahami; hubungan; kontak; 2 perhubungan;";
+        current++;
+
+        englishArr[current]="Computer"; indoArr[current]="Komputer";
+        indoDef[current]="nomina\n\nalat elektronik otomatis yang dapat menghitung atau mengolah data secara cermat menurut yang diinstruksikan, dan memberikan hasil pengolahan, serta dapat menjalankan sistem multimedia (film, musik, televisi, faksimile, dan sebagainya), biasanya terdiri atas unit pemasukan, unit pengeluaran, unit penyimpanan, serta unit pengontrolan";
+        current++;
+
+        englishArr[current]="Creator"; indoArr[current]="Pembuat";
+        indoDef[current]="nomina\n\nsekumpulan orang yang merupakan kesatuan untuk mengerjakan sesuatu:";
+        current++;
+
+        englishArr[current]="Database"; indoArr[current]="Kumpulan data\n";
+        indoDef[current]="nomina\n\npenampung yang menyimpan data yang Anda upload ke Analytics";
+        current++;
+
+        englishArr[current]="device"; indoArr[current]="Piranti/alat/perangkat";
+        indoDef[current]="nomina\n\nbenda yang dipakai untuk mengerjakan sesuatu: perkakas; perabot(an):";
+        current++;
+
+        englishArr[current]="interface"; indoArr[current]="antarmuka";
+        indoDef[current]="nomina\n\nubungan atau batasan umum antara dua unit atau alat;.";
+        current++;
+
+        englishArr[current]="Maintanance"; indoArr[current]="Pemeliharaan";
+        indoDef[current]="nomina\n\nuang yang dikeluarkan untuk mengadakan (mendirikan, melakukan, dan sebagainya) sesuatu; ongkos; belanja; pengeluaran:";
+        current++;
+
+        englishArr[current]="Monitor"; indoArr[current]="Memantau";
+        indoDef[current]="nomina\n\nmengamati atau mengecek dengan cermat, terutama untuk tujuan khusus; mengawasi; memonitor;";
+        current++;
+
+        englishArr[current]="Network\t"; indoArr[current]="Jaringan";
+        indoDef[current]="nomina\n\nSekelompok komputer yang terhubung yang bisa saling berbagi sumber daya (seperti printer atau modem) dan data. .";
+        current++;
+
+        englishArr[current]="Programming"; indoArr[current]="Pemrograman";
+        indoDef[current]="nomina\n\nrancangan mengenai asas serta usaha (dalam ketatanegaraan, perekonomian, dan sebagainya) yang akan dijalankan:";
+        current++;
+
+        englishArr[current]="Project"; indoArr[current]="Proyek";
+        indoDef[current]="nomina\n\nrencana pekerjaan dengan sasaran khusus (pengairan, pembangkit tenaga listrik, dan sebagainya) dan dengan saat penyelesaian yang tegas";
+        current++;
+        //upi End
 
         sort();
     }
