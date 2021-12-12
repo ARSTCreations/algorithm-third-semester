@@ -51,8 +51,7 @@ public class Main extends Application {
 
         go.setOnAction(goClick ->{
             dictionary.search(searchBar.getText(),0,dictionary.getArrLen());
-            int arrIdx = dictionary.getVoidReturn();
-            System.out.println(arrIdx);
+            int arrIdx = dictionary.getVoidReturn(); System.out.println(arrIdx);
             if (arrIdx == -1){
                 translatedText.setText("Tidak Ditemukan!");
                 definitionArea.setText("Kata tersebut belum ada di data");

@@ -109,7 +109,7 @@ public class Dictionary {
         indoDef[current]="nomina\n\nmengamati atau mengecek dengan cermat, terutama untuk tujuan khusus; mengawasi; memonitor;";
         current++;
 
-        englishArr[current]="Network\t"; indoArr[current]="Jaringan";
+        englishArr[current]="Network"; indoArr[current]="Jaringan";
         indoDef[current]="nomina\n\nSekelompok komputer yang terhubung yang bisa saling berbagi sumber daya (seperti printer atau modem) dan data. .";
         current++;
 
