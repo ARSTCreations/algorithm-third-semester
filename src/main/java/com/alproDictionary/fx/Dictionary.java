@@ -58,6 +58,11 @@ public class Dictionary {
 
         englishArr[current]="Argument"; indoArr[current]="Argumen";
         indoDef[current]="nomina\n\nArgumen adalah cara untuk memberikan lebih banyak informasi ke suatu fungsi. Fungsi kemudian dapat menggunakan informasi itu saat berjalan, seperti variabel.";
+        indoDef[current]="nomina\n\nprosedur sistematis untuk memecahkan masalah matematis dalam langkah-langkah terbatas";
+        current++;
+
+        englishArr[current]="Argument"; indoArr[current]="Argumen";
+        indoDef[current]="nomina\n\nArgumen adalah cara untuk memberikan lebih banyak informasi ke suatu fungsi. Fungsi kemudian dapat menggunakan informasi itu saat berjalan, seperti variabel";
         current++;
 
         //upi Start
@@ -186,8 +191,7 @@ public class Dictionary {
         englishArr[current]=""; indoArr[current]="";
         indoDef[current]="nomina\n\n";
         current++;
-
-
+        // end Hania
 
         sort();
     }
