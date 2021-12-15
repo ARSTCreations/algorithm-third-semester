@@ -193,6 +193,69 @@ public class Dictionary {
         current++;
         // end Hania
 
+        //M A U D Y
+        englishArr[current]="Cancel"; indoArr[current]="Membatalkan";
+        indoDef[current]="nomina\n\nTidak jadi dilangsungkan; ditunda; urung.";
+        current++;
+
+        englishArr[current]="Data"; indoArr[current]="Data";
+        indoDef[current]="nomina\n\nKeterangan atau bahan nyata yang dapat dijadikan dasar kajian (analisis atau kesimpulan).";
+        current++;
+
+        englishArr[current]="Software"; indoArr[current]="Perangkat Lunak";
+        indoDef[current]="nomina\n\nPerangkat program, prosedur, dan dokumen yang berkaitan dengan suatu sistem (misalnya sistem komputer).";
+        current++;
+
+        englishArr[current]="Disconnect"; indoArr[current]="Memutuskan";
+        indoDef[current]="nomina\n\nMenghentikan (tentang arus atau sesuatu yang sedang bekerja).";
+        current++;
+
+        englishArr[current]="Link"; indoArr[current]="Tautan";
+        indoDef[current]="nomina\n\nSambungan atau koneksi dari sebuah sumber ke sumber yang lain.";
+        current++;
+
+        englishArr[current]="Keyboard"; indoArr[current]="Papan Tombol";
+        indoDef[current]="nomina\n\nSebuah papan yang terdiri atas tombol-tombol seperti huruf alfabet untuk mengetikkan kalimat.";
+        current++;
+
+        englishArr[current]="Router"; indoArr[current]="Perute";
+        indoDef[current]="nomina\n\nSebuah alat yang mengirimkan paket data melalui sebuah jaringan atau Internet menuju tujuannya.";
+        current++;
+
+        englishArr[current]="Save"; indoArr[current]="Menyimpan";
+        indoDef[current]="nomina\n\nPerintah di menu File pada sebagian besar aplikasi untuk menyimpan data kembali ke file dan folder asalnya.";
+        current++;
+
+        englishArr[current]="Feedback"; indoArr[current]="Umpan Balik";
+        indoDef[current]="nomina\n\nTanggapan atau respon yang diberikan oleh seorang penerima kepada pengirim pesan.";
+        current++;
+
+        englishArr[current]="Ethernet"; indoArr[current]="Eternet";
+        indoDef[current]="nomina\n\nStandar umum yang digunakan untuk menghubungkan kabel ke jaringan komputer";
+        current++;
+
+        englishArr[current]="Paste"; indoArr[current]="Tempel";
+        indoDef[current]="nomina\n\nMenempelkan Objek yang telah disalin";
+        current++;
+
+        englishArr[current]="Font"; indoArr[current]="Fon";
+        indoDef[current]="nomina\n\nSebuah huruf yang memiliki ukuran, berat, dan gaya tertentu.";
+        current++;
+
+        englishArr[current]="Touch screen"; indoArr[current]="Layar Sentuh";
+        indoDef[current]="nomina\n\nSebuah perangkat input komputer yang bekerja dengan adanya sentuhan tampilan layar menggunakan jari atau pena digital.";
+        current++;
+
+        englishArr[current]="Compiler"; indoArr[current]="Kompilator";
+        indoDef[current]="nomina\n\nsebuah program komputer yang berguna untuk menerjemahkan program komputer yang ditulis" +
+                "dalam bahasa pemrograman tertentu menjadi program yang ditulis dalam bahasa pemrograman lain.";
+        current++;
+
+        englishArr[current]="Proxy"; indoArr[current]="Proksi";
+        indoDef[current]="nomina\n\nSuatu sistem yang mengakses jaringan internet menggunakan IP yang berbeda.";
+        current++;
+        //M A U D Y End
+
         sort();
     }
     public void search(String forThis,int awal,int akhir){
