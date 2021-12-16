@@ -193,6 +193,133 @@ public class Dictionary {
         current++;
         // end Hania
 
+        //M A U D Y
+        englishArr[current]="Cancel"; indoArr[current]="Membatalkan";
+        indoDef[current]="nomina\n\nTidak jadi dilangsungkan; ditunda; urung.";
+        current++;
+
+        englishArr[current]="Data"; indoArr[current]="Data";
+        indoDef[current]="nomina\n\nKeterangan atau bahan nyata yang dapat dijadikan dasar kajian (analisis atau kesimpulan).";
+        current++;
+
+        englishArr[current]="Software"; indoArr[current]="Perangkat Lunak";
+        indoDef[current]="nomina\n\nPerangkat program, prosedur, dan dokumen yang berkaitan dengan suatu sistem (misalnya sistem komputer).";
+        current++;
+
+        englishArr[current]="Disconnect"; indoArr[current]="Memutuskan";
+        indoDef[current]="nomina\n\nMenghentikan (tentang arus atau sesuatu yang sedang bekerja).";
+        current++;
+
+        englishArr[current]="Link"; indoArr[current]="Tautan";
+        indoDef[current]="nomina\n\nSambungan atau koneksi dari sebuah sumber ke sumber yang lain.";
+        current++;
+
+        englishArr[current]="Keyboard"; indoArr[current]="Papan Tombol";
+        indoDef[current]="nomina\n\nSebuah papan yang terdiri atas tombol-tombol seperti huruf alfabet untuk mengetikkan kalimat.";
+        current++;
+
+        englishArr[current]="Router"; indoArr[current]="Perute";
+        indoDef[current]="nomina\n\nSebuah alat yang mengirimkan paket data melalui sebuah jaringan atau Internet menuju tujuannya.";
+        current++;
+
+        englishArr[current]="Save"; indoArr[current]="Menyimpan";
+        indoDef[current]="nomina\n\nPerintah di menu File pada sebagian besar aplikasi untuk menyimpan data kembali ke file dan folder asalnya.";
+        current++;
+
+        englishArr[current]="Feedback"; indoArr[current]="Umpan Balik";
+        indoDef[current]="nomina\n\nTanggapan atau respon yang diberikan oleh seorang penerima kepada pengirim pesan.";
+        current++;
+
+        englishArr[current]="Ethernet"; indoArr[current]="Eternet";
+        indoDef[current]="nomina\n\nStandar umum yang digunakan untuk menghubungkan kabel ke jaringan komputer";
+        current++;
+
+        englishArr[current]="Paste"; indoArr[current]="Tempel";
+        indoDef[current]="nomina\n\nMenempelkan Objek yang telah disalin";
+        current++;
+
+        englishArr[current]="Font"; indoArr[current]="Fon";
+        indoDef[current]="nomina\n\nSebuah huruf yang memiliki ukuran, berat, dan gaya tertentu.";
+        current++;
+
+        englishArr[current]="Touch screen"; indoArr[current]="Layar Sentuh";
+        indoDef[current]="nomina\n\nSebuah perangkat input komputer yang bekerja dengan adanya sentuhan tampilan layar menggunakan jari atau pena digital.";
+        current++;
+
+        englishArr[current]="Compiler"; indoArr[current]="Kompilator";
+        indoDef[current]="nomina\n\nsebuah program komputer yang berguna untuk menerjemahkan program komputer yang ditulis" +
+                "dalam bahasa pemrograman tertentu menjadi program yang ditulis dalam bahasa pemrograman lain.";
+        current++;
+
+        englishArr[current]="Proxy"; indoArr[current]="Proksi";
+        indoDef[current]="nomina\n\nSuatu sistem yang mengakses jaringan internet menggunakan IP yang berbeda.";
+        current++;
+        //M A U D Y End
+
+        //start Cita
+        englishArr[current]="Exception"; indoArr[current]="Eksepsi";
+        indoDef[current]="nomina\n\nObjek yang merepresentasikan suatu error atau kondisi yang mencegah eksekusi berjalan secara normal. " +
+                "Beberapa tipe exception : IllegalArgumetException, RuntimeException, NullPointerException, dll.";
+        current++;
+
+        englishArr[current]="Array"; indoArr[current]="Larik";
+        indoDef[current]="nomina\n\nSebuah variabel yang bisa menyimpan banyak data dalam satu variabel.";
+        current++;
+
+        englishArr[current]="Stack"; indoArr[current]="Tumpukan";
+        indoDef[current]="nomina\n\nKoleksi data yang menyerupai tumpukan, dimana data baru akan ditempatkan di atas data sebelumnya(LIFO).";
+        current++;
+
+        englishArr[current]="Queue"; indoArr[current]="Antrian";
+        indoDef[current]="nomina\n\nKoleksi data seperti antrian, menggunakan prinsip FIFO dimana data baru ditempatkan di akhir antrian(rear) dan data yang pertama keluar adalah data yang ada di urutan pertama(front) .";
+        current++;
+
+        englishArr[current]="Pseudocode"; indoArr[current]="Kode Semu";
+        indoDef[current]="nomina\n\nSebuah kode yang digunakan untuk menulis sebuah algoritma dengan cara yang bebas yang tidak terikat dengan bahasa pemograman tertentu.";
+        current++;
+
+        englishArr[current]="Flowchart"; indoArr[current]="Diagram Alir";
+        indoDef[current]="nomina\n\nDiagram yang menampilkan langkah-langkah dan keputusan untuk melakukan sebuah proses dari suatu program.";
+        current++;
+
+        englishArr[current]="import"; indoArr[current]="impor";
+        indoDef[current]="nomina\n\nSuatu perintah untuk memasukan suatu method atau perintah dalam Bahasa Pemrograman Java sehingga perintah tersebut dapat aktif dan digunakan atau berfungsi.";
+        current++;
+
+        englishArr[current]="Overriding"; indoArr[current]="Penimpaan";
+        indoDef[current]="nomina\n\nSebuah kondisi dimana method  yang ada di class utama (kelas induk) digunakan kembali pada sub class (kelas anak).";
+        current++;
+
+        englishArr[current]="Overloading"; indoArr[current]="";
+        indoDef[current]="nomina\n\nSebuah konsep pemprograman di mana beberapa method dengan nama yang sama pada suatu kelas memiliki parameter yang berbeda.";
+        current++;
+
+        englishArr[current]="Extends"; indoArr[current]="Memperluas";
+        indoDef[current]="nomina\n\nKeyword untuk mewarisi semua fungsi dan semua fields (variable) yang ada di dalam kelas parent.";
+        current++;
+
+        englishArr[current]="null"; indoArr[current]="Kosong";
+        indoDef[current]="nomina\n\nBerarti ‘tidak memiliki nilai’, dapat diberikan kepada variabel, elemen dari array, property dari objek, atau yang lainnya.";
+        current++;
+
+        englishArr[current]="Encapsulation"; indoArr[current]="Enkapsulasi";
+        indoDef[current]="nomina\n\nPembungkus class untuk menjaga apa apa saja yang ada didalam class tersebut, baik method ataupun atribut, agar tidak dapat di akses oleh class lainnya.";
+        current++;
+
+        englishArr[current]="JDK"; indoArr[current]="Paket fungsi API Java";
+        indoDef[current]="nomina\n\nJava Development Kit adalah sebuah paket aplikasi yang berisi JVM (Java Virtual Machine) + JRE (Java Runtime Environment) + berbagai aplikasi untuk proses pembuatan kode program Java.";
+        current++;
+
+        englishArr[current]="Coding"; indoArr[current]="Penulisan kode";
+        indoDef[current]="nomina\n\nSebuah cara atau proses untuk menuliskan sederet code yang harus sesuai dengan aturan penulisan (syntax). " +
+                "Penulisan kode juga harus sesuai dengan bahasa pemrograman yang sedang digunakan. ";
+        current++;
+
+        englishArr[current]="Loop"; indoArr[current]="Perulangan";
+        indoDef[current]="nomina\n\nSebuah urutan perintah yang secara menerus diulang hingga suatu kondisi tercapai.";
+        current++;
+        // end Cita
+
         sort();
     }
     public void search(String forThis,int awal,int akhir){
