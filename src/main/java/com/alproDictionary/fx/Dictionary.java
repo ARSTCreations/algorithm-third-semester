@@ -319,7 +319,7 @@ public class Dictionary {
         indoDef[current]="nomina\n\nSebuah urutan perintah yang secara menerus diulang hingga suatu kondisi tercapai.";
         current++;
         // end Cita
-
+      
         sort();
     }
     public void search(String forThis,int awal,int akhir){
