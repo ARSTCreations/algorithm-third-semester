@@ -168,28 +168,28 @@ public class Dictionary {
                          "sebuah website atau program tidak bekerja seperti seharusnya.";
         current++;
 
-        englishArr[current]=""; indoArr[current]="";
-        indoDef[current]="nomina\n\n";
+        englishArr[current]="Binary"; indoArr[current]="Biner";
+        indoDef[current]="nomina\n\nangka 0 dan 1 yang dapat digabungkan menjadi huruf dan kata, bahkan kalimat";
         current++;
 
-        englishArr[current]=""; indoArr[current]="";
-        indoDef[current]="nomina\n\n";
+        englishArr[current]="Syntax"; indoArr[current]="Sintaksis";
+        indoDef[current]="nomina\n\nsyntax itu bisa diibaratakan rambu yang memberi tahu kalian kalau kode yang kalian masukkan saat coding benar atau salah";
         current++;
 
-        englishArr[current]=""; indoArr[current]="";
-        indoDef[current]="nomina\n\n";
+        englishArr[current]="Brackets"; indoArr[current]="Tanda kurung";
+        indoDef[current]="nomina\n\nkode yang digunakan pada awal dan akhir sebuah teks dalam coding";
         current++;
 
-        englishArr[current]=""; indoArr[current]="";
-        indoDef[current]="nomina\n\n";
+        englishArr[current]="Run"; indoArr[current]="Lari";
+        indoDef[current]="nomina\n\nmenandakan bahwa coding yang kalian lakukan sedang diproses atau ‘sedang berlari’";
         current++;
 
-        englishArr[current]=""; indoArr[current]="";
-        indoDef[current]="nomina\n\n";
+        englishArr[current]="String"; indoArr[current]="Rangkaian";
+        indoDef[current]="nomina\n\ntipe data yang digunakan untuk menyimpan barisan karakter.";
         current++;
 
-        englishArr[current]=""; indoArr[current]="";
-        indoDef[current]="nomina\n\n";
+        englishArr[current]="Integer"; indoArr[current]="Bilangan bulat";
+        indoDef[current]="nomina\n\ntipe data yang digunakan untuk menyimpan angka atau bilangan bulat";
         current++;
         // end Hania
 
